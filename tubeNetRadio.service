@@ -1,0 +1,13 @@
+[Unit]
+Description=autostart tubeNetRadio mpd script
+After=default.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/pi/tubeNetRadio.sh
+
+[Install]
+WantedBy=multi-user.target
+#WantedBy=default.target
+
+

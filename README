@@ -1,0 +1,21 @@
+tubeNetRadio
+============
+
+Raspberry powered tube radio
+
+============
+
+Explanation of files:
+
+
+mpd.conf - example configuration for mpd, place in /etc/mpd.conf
+
+tubeNetRadio.py - button control routine, place directly in home
+
+tubeNetRadio.sh - start script, place directly in home
+
+tubeNetRadio.service - service launch routine, place in /etc/systemd/system
+
+fstab - example fstab with additional partition, from /etc/
+
+
