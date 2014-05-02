@@ -16,6 +16,8 @@ tubeNetRadio.sh - start script, place directly in home
 
 tubeNetRadio.service - service launch routine, place in /etc/systemd/system
 
+myradiostations.m3u - example radio station list, place in mpd music folder
+
 fstab - example fstab with additional partition, from /etc/
 
 
